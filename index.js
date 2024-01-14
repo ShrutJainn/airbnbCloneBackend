@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://venerable-monstera-3cf5ba.netlify.app",
+    origin: "*",
   })
 );
 
